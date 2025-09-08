@@ -1,15 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+
+<head>
         
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial"
+<meta name="viewport" content="width=device-width, initial-scale=1"
 <title>My first webpage</title>
 <link rel="stylesheet" href="styles.css">
         
-    </head>
-        <body style="background-color:pink">
-            <img src="images/funnydog.jpg" alt="Kutsa">
-            <p>Tere sõbrad! Minu nimi on Maia.</p>
+</head>
+
+        <body>
+            
+                <header>
+                    <nav aria-label="navigatsioon">
+                    <a href="#sissejuhatus">About</a>
+                    <a href="#teooria">Teooria</a>
+                    <a href="#kontakt">Kontakt</a>
+                    </nav>
+                </header>
+                <main>
+                    <section id="sissejuhatus">
+                    <h2>Sissejuhatus</h2>
+                    <p>Mis on HTML?</p>
+                    </section>
+
+                    <section id="teooria">
+                        <h2>Teooria</h2>
+                        <p>Kõik vajalikud materjalid HTML ja CSS õppimiseks</p>
+                    </section>
+
+                    <section id="kontakt">
+                    <h2>Kontakt</h2>
+                </main>
+                    
+
+                
+                <div class="business_card">
+                    <img src="images/funnydog.jpg" alt="Kutsa">
+                </div>
+
+                <div class="card_details">
+                <p>Maia-Marit Riit</p>
+                <p>Email: maia-marit.riit@voco.ee</p>
+                <p>Tel: 56865083</p>
+                </div>
+
+        
+                
         </body>
+
+
 </html>
