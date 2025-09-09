@@ -1,3 +1,9 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 img {
     width: 120px;
     border-radius: 20px;
@@ -10,4 +16,4 @@ img {
     margin: 20px;
     outline: 3px solid #D11395;
     background-color: aliceblue;
-    
+}
