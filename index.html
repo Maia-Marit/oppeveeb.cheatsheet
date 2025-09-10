@@ -5,38 +5,58 @@
         
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1"
-<title>My first webpage</title>
+<title>HTML ja CSS õppeveeb</title>
 <link rel="stylesheet" href="styles.css">
         
 </head>
 
         <body>
             
-            <div class="bannerimage"></div>
-        
-            <header> 
-                    <nav class="nav_stiil" aria-label="navigatsioon">
+            <header class="background_nav">
+                    <div class="nav_bar"></div>
+                        <nav class="nav_stiil" aria-label="navigatsioon">
                             <a href="#sissejuhatus">About</a>
                             <a href="#teooria">Teooria</a>
                             <a href="#kontakt">Kontakt</a>
-                    </nav>
+                        </nav>
             </header>
 
                 <main>
-                    <section id="sissejuhatus">
+                    <section class="sissejuhatus">
                     <h2>Sissejuhatus</h2>
                     <p><b>Mis on HTML?</b></p>
                     <p>HTML on standardne märgistuskeel veebilehtede ja veebirakenduste loomiseks</p>
                     </section>
 
-                    <section id="teooria">
+                    <section class="teooria">
                         <h2>Teooria</h2>
                         <p><b>Kõik vajalikud materjalid HTML ja CSS õppimiseks:</b></p>
                         <p></p>
                     </section>
 
-                    <section id="kontakt">
+                    <section class="kontakt">
                     <h2>Kontakt</h2>
+                    
+                    <div class="gif">
+                        <p>Gifid</p>
+                        <a href="https://giphy.com/">
+                            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMmZ3dW51dGkyM3Uwc254eDZ0azMwN3ozZm5xdzN2MWppamJobXIzeCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ohhwDfcBvBPpD9RZu/giphy.gif" alt="picgif" width="200" height="200" loading="lazy">
+                        </a>
+                    </div>
+
+                    <div>
+                        <svg class="star" width="50" height="50" viewBox="0 0 100 100">
+                            <polygon points="50,10 61,40 95,40 67,60 78,90
+                                50,72 22,90 33,60 5,40 39,40"
+                                fill="yellow"
+                                stroke="red"
+                                stroke-width="3"/>
+                        </svg>
+                    </div>
+
+                    <div>
+
+                    </div>
 
                 </main>
 
