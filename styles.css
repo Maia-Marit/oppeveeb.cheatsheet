@@ -1,6 +1,7 @@
 body {
-    background-color:#ffaed0;
-    margin: 0
+    background-color:#e4dcb0;
+    margin: 0;
+    padding: 0;
 }
 
 /*header content*/
@@ -9,9 +10,10 @@ body {
     background-image: url(../images/sky.jpg);
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
     justify-content: center;
     height: 800px;
-    padding: 5px;
     width: 100%;
     
 }
@@ -21,27 +23,58 @@ body {
     font-size: 80px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
     font-weight bold;
-    padding-top: 200px;
-    padding-left: 120px;
 }
-
-.nav_bar {
-    color: white
     
-}
 
 /*main content*/
+
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.gif_text {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.star {
+    text-align: center;
+    margin: 20px;
+}
+
+.teooria {
+    text-align: center;
+}
 
     
 
 /*footer content*/ 
+
+footer {
+    background-color: #f46199;
+    color: rgb(0, 0, 0);
+}
+
 .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex: 1;
+    margin-top: -30px;
     padding: 20px;
 }
 
 .picture {
-   flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
 }
 
 .picture img {
@@ -55,10 +88,15 @@ body {
     display: flex;
     width: 300px;
     height: 150px;
-    margin: 20px;
-    outline: 3px solid #fe0564;
-    background-color: rgba(255, 122, 182, 0.571);
+    margin: 10px;
+    outline: 3px solid #e40057;
+    background-image: url(../images/pink.jpg);
+    background-size: cover;
     align-items: center;
+}
+
+.kontakt { 
+    text-align: center;
 }
 
 .card_details {
@@ -69,5 +107,5 @@ body {
 footer {
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 5px;
 }
