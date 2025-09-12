@@ -5,6 +5,15 @@ body {
 }
 
 /*header content*/
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .hero_image {
     display: flex;
     background-image: url(../images/sky.jpg);
@@ -13,7 +22,7 @@ body {
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
-    height: 800px;
+    height: 750px;
     width: 100%;
     
 }
@@ -23,6 +32,14 @@ body {
     font-size: 80px;
     font-family:Verdana, Geneva, Tahoma, sans-serif
     font-weight bold;
+    text-align: center;
+    margin-top: -200px;
+    
+}   
+
+.nav_stiil {
+    display: flex;
+    gap: 15px;
 }
     
 
