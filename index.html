@@ -17,6 +17,8 @@
                         <p>HTML ja CSS õppeveeb</p>
                     </div>
 
+                    <a href="#sissejuhatus" class="skip-link">Liikumine sisu juurde</a>
+
                     <nav class="nav_stiil" aria-label="navigatsioon">
                         <a href="#sissejuhatus">About</a>
                         <a href="#teooria">Teooria</a>
@@ -25,15 +27,53 @@
             </header>
 
                 <main>
-                    <section class="sissejuhatus">
-                    <h2>Sissejuhatus</h2>
-                    <b>Mis on HTML?</b>
-                    <p>HTML on standardne märgistuskeel veebilehtede ja veebirakenduste loomiseks</p>
+                    <section id="sissejuhatus" class="sissejuhatus">
+                        <h1>Sissejuhatus</h1>
                     </section>
 
-                    <section class="teooria">
-                        <h2>Teooria</h2>
-                        <h3><b>Materjalid HTML ja CSS õppimiseks:</b></h3>
+                    <div class="sissejuhatus_html">
+                        <h3><b>Mis on HTML?</b></h3>
+                        <p>HTML on standardne märgistuskeel veebilehtede ja veebirakenduste loomiseks</p>
+                        <p><i>HTML = veebilehe luustik</i></p>
+                        <br>
+                    </div>
+
+                    <div class="sissejuhatus_css">
+                        <h3><b>Mis on CSS?</b></h3>
+                        <p>CSS on stiililehtede keel, mida kasutatakse HTML-i sisu kujundamiseks ja vormindamiseks.</p>
+                        <p><i>CSS = veebilehe välimus ja riided</i></p>
+                        <br>
+                    </div>
+
+                    <a href="#teooria">
+                        <img src="images/studypic.jpg" class="studypic" alt="studypic">
+                    </a>
+
+                    <section id="teooria" class="teooria">
+                        <h1>Teooria</h1>
+                        <br>
+                        <h3 id="materjalid">Materjalid HTML ja CSS õppimiseks:</h3>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <br>
+                        <div class="teooria_sisu"></div>
+
+                        <div class="HTML_resource">
+                            <a href="https://www.w3schools.com/html/" target="_blank">
+                                <img src="images/HTML.png" alt="HTML W3Schools" width="300" height="300">
+                            </a>
+                                <h3>HTML materjalid</h3>
+                        </div>
+
+                        <div class="CSS_resource">
+                            <a href="https://www.w3schools.com/css/" target="_blank">
+                                <img src="images/CSS.png" alt="CSS W3Schools" width="300" height="300">
+                            </a>
+                            <h3>CSS materjalid</h3>
+                        </div>
+
                     </section>
                     
                     <div class="gif">
@@ -50,7 +90,7 @@
                             <polygon points="50,10 61,40 95,40 67,60 78,90
                                 50,72 22,90 33,60 5,40 39,40"
                                 fill="yellow"
-                                stroke="red"
+                                stroke="#f46199"
                                 stroke-width="3"/>
                         </svg>
                     </div>
@@ -59,13 +99,12 @@
 
                 <footer>
 
-                    <section class="kontakt">
-                    <h2>Kontakt</h2> 
+                    <section id="kontakt" class="kontakt">
 
                     <div class="content">
                         <div class="business_card">
                             <div class="picture">
-                                <img src="images/funnydog.jpg" alt="Kutsa">
+                                <img src="images/artpfp.jpg" alt="PFP">
                             </div>
                         <div class="card_details">
                             <p><b>Maia-Marit Riit</b></p>

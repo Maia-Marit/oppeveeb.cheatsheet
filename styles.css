@@ -1,5 +1,10 @@
+html {
+    scroll-behavior: smooth;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
 body {
-    background-color:#e4dcb0;
+    background-color:#abb9b8;
     margin: 0;
     padding: 0;
 }
@@ -22,24 +27,47 @@ header {
     background-repeat: no-repeat;
     align-items: center;
     justify-content: center;
-    height: 750px;
+    height: 1000px;
     width: 100%;
     
 }
 
 .hero-text {
     color: rgb(0, 0, 0);
-    font-size: 80px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif
-    font-weight bold;
-    text-align: center;
+    font-size: 5rem;
     margin-top: -200px;
-    
 }   
+
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    color: #000000;
+    background-color: #e7e7e0;
+    padding: 8px;
+    z-index: 100;
+}
+
+.skip-link:focus {
+    top: 0;
+}
 
 .nav_stiil {
     display: flex;
-    gap: 15px;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.nav_stiil a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav_stiil a:hover {
+    color: white;
 }
     
 
@@ -53,7 +81,7 @@ main {
     }
 
 .gif_text {
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -65,17 +93,76 @@ main {
     margin: 20px;
 }
 
+.sissejuhatus {
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.sissejuhatus_html {
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 680px;
+    margin-top: 60px;
+    background-color: #858585;
+    padding: 25px;
+    
+}
+
+.sissejuhatus_css {
+    text-align: left;
+    margin-left: 770px;
+    margin-right: 0px;
+    margin-top: -197px;
+    background-color: #c58e8e;
+    padding: 25px;
+}
+
+.studypic {
+    border-radius: 5px;
+    margin-top: 100px;
+    width: 600px;
+    height: 400px;
+
+}
+
 .teooria {
+    margin-top: 150px;
+    margin-left: 5px;
+    padding-bottom: 100px;
+    padding-top: 70px;
     text-align: center;
 }
 
+#materjalid {
+    color: rgb(189, 23, 65)
     
+}
+
+.HTML_resource {
+    text-align: left;
+    margin-left: 0px;
+    margin-right: 680px;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+.CSS_resource {
+    text-align: left;
+    margin-left: 680px;
+    margin-right: 0px;
+    margin-top: -413px;
+    padding: 25px;
+}
 
 /*footer content*/ 
 
 footer {
-    background-color: #f46199;
+    background-color: #131212;
     color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
 }
 
 .content {
@@ -99,6 +186,7 @@ footer {
     height: 125px;
     border-radius: 15%;
     padding: 10px;
+    object-fit: cover;
 }
 
 .business_card {
@@ -106,7 +194,7 @@ footer {
     width: 300px;
     height: 150px;
     margin: 10px;
-    outline: 3px solid #e40057;
+    outline: 3px solid #ff116c;
     background-image: url(../images/pink.jpg);
     background-size: cover;
     align-items: center;
@@ -118,11 +206,5 @@ footer {
 
 .card_details {
     flex: 2;
-    padding: 5px;
-}
-
-footer {
-    display: flex;
-    justify-content: center;
     padding: 5px;
 }
